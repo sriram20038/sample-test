@@ -1,0 +1,6 @@
+week1:
+1)Understand about project
+2)Created team and own repo in GitHub
+3)Started bulding HTML Skelton for module 1
+
+Week 2:

@@ -4,18 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <style>
+        body{
+            background-color: #DFF2EB;
+        }
+        header{
+            background-color: white;
+
+        }
+        header h1{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: dotted  black;
+        }
+        #links a{
+            text-decoration: none;
+            color: white;
+        }
+        #signup{
+            background-color: #4A628A;
+        }
+        #login{
+            background-color: #72BF78 ;
+        }
+        main p{
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 20%;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <p>LearningHub</p>
-        <nav>
-            <button><a href="signup.html">Sign Up</a></button>
-            <button><a href="login.html">Login</a></button>
+        <h1>LearningHub</h1>
+        <nav id="links">
+            <button id="signup"><a href="signup.html">Sign Up</a></button>
+            <button id="login"><a href="login.html">Login</a></button>
         </nav>
         
     </header><hr>
     <main>
-        <p>Welcome to learning hub</p>
+        <p>Welcome to LearningHub</p>
     </main>
 </body>
 </html>
