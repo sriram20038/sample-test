@@ -4,3 +4,4 @@ week1:
 3)Started bulding HTML Skelton for module 1
 
 Week 2:
+1)Develop basic css
